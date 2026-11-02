@@ -1,0 +1,187 @@
+/* ==========================================================================
+   RESPONSIVE.CSS --- AI Work Archive
+   Media queries, fluid layouts, mobile drawer navigation, responsive typography.
+   ========================================================================== */
+
+/* Tablet & Smaller (< 1024px) */
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 36px;
+  }
+
+  .capabilities-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .tools-tiers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tool-tier-card:last-child {
+    grid-column: span 2;
+  }
+
+  .building-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .building-card:last-child {
+    grid-column: span 2;
+  }
+}
+
+/* Mobile & Small Tablet (< 768px) */
+@media (max-width: 768px) {
+  :root {
+    --gutter: 18px;
+  }
+
+  .site-header {
+    height: 64px;
+  }
+
+  .mobile-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px var(--gutter);
+    gap: 16px;
+    box-shadow: 0 16px 24px rgba(25, 25, 25, 0.08);
+    display: none;
+  }
+
+  .nav-links.is-open {
+    display: flex;
+  }
+
+  .nav-link {
+    font-size: 1.05rem;
+    padding: 8px 0;
+    width: 100%;
+    border-bottom: 1px solid var(--color-border-subtle);
+  }
+
+  .nav-actions .btn {
+    display: none;
+  }
+
+  .hero-section {
+    padding: 48px 0 44px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .hero-recruiter-card {
+    order: 2;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .capabilities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tools-tiers {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-tier-card:last-child {
+    grid-column: span 1;
+  }
+
+  .building-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .building-card:last-child {
+    grid-column: span 1;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .about-principles {
+    grid-template-columns: 1fr;
+  }
+
+  .section-work,
+  .section-capabilities,
+  .section-process,
+  .section-tools,
+  .section-building,
+  .section-about {
+    padding: 56px 0;
+  }
+
+  .footer-top,
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+}
+
+/* Small Screens (< 480px) */
+@media (max-width: 480px) {
+  :root {
+    --gutter: 16px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .card-top-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .prototype-banner .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "sample-001",
+    "slug": "conversational-triage-bot",
+    "title": "Conversational Triage & Ticket Routing Assistant",
+    "category": "Development & Engineering",
+    "category_slug": "development-engineering",
+    "tags": ["LLM Workflows", "Telegram Bot", "Automation"],
+    "year": 2026,
+    "status": "prototype",
+    "contribution_type": "Human-led with AI",
+    "tools": ["Claude 3.5 Sonnet", "Node.js", "Telegram Bot API"],
+    "formats": ["Interactive Bot", "Source Code", "Architecture Doc"],
+    "summary": "Reduced manual tier-1 triage response latency by classifying customer intent, extracting structured order data, and drafting human-in-the-loop responses.",
+    "context_problem": "Support agents spent 40% of their time collecting missing order identifiers and categorizing repetitive inquiries.",
+    "approach_solution": "Designed multi-step prompt chains with schema validation to extract parameters before escalating edge cases to staff.",
+    "demonstrated_outcome": "Demonstrated 85% accurate zero-shot intent categorization across 200 synthetic inquiry test suites.",
+    "featured": true,
+    "is_sample_preview": true,
+    "links": {
+      "github": "https://github.com/devank-data-analyst/ai-work-archive",
+      "drive": "",
+      "live": "",
+      "demo": ""
+    }
+  },
+  {
+    "id": "sample-002",
+    "slug": "sentiment-synthesis-pipeline",
+    "title": "Multimodal Customer Sentiment & Trend Synthesis Pipeline",
+    "category": "Data Science & Analytics",
+    "category_slug": "data-science-analytics",
+    "tags": ["EDA", "Python", "GPT-4o", "Data Cleaning"],
+    "year": 2025,
+    "status": "completed",
+    "contribution_type": "AI-assisted",
+    "tools": ["Python", "Pandas", "GPT-4o", "Plotly"],
+    "formats": ["Jupyter Notebook", "Executive Dashboard", "Cleaned Dataset"],
+    "summary": "Turned 15,000+ unstructured product reviews into topic clusters, sentiment shifts, and actionable feature recommendations.",
+    "context_problem": "Raw qualitative feedback was too voluminous for product managers to review systematically before quarterly planning.",
+    "approach_solution": "Utilized Python scripts to batch-process sentiment embeddings and generate quantitative frequency distributions validated by manual sampling.",
+    "demonstrated_outcome": "Delivered an automated analytical notebook that compressed weeks of feedback analysis into a 2-hour reproducible report.",
+    "featured": true,
+    "is_sample_preview": true,
+    "links": {
+      "github": "https://github.com/devank-data-analyst/ai-work-archive",
+      "drive": "",
+      "live": "",
+      "demo": ""
+    }
+  },
+  {
+    "id": "sample-003",
+    "slug": "ai-visual-communication-series",
+    "title": "Visual Explanations & Systems Infographic Architecture",
+    "category": "Graphic Design & Visual Communication",
+    "category_slug": "graphic-design-visual",
+    "tags": ["Midjourney", "Figma", "Visual Systems", "Diagrams"],
+    "year": 2025,
+    "status": "completed",
+    "contribution_type": "Human-led with AI",
+    "tools": ["Midjourney v6", "Figma", "Claude (Copy)"],
+    "formats": ["Hi-Res Posters", "Vector Layouts", "Case Study"],
+    "summary": "Combined generative diffusion models with structured typographic layout to produce editorial-grade diagrams explaining complex cloud architectures.",
+    "context_problem": "Technical diagrams are often dry and impenetrable to executive stakeholders, while purely creative illustrations lack precision.",
+    "approach_solution": "Generated textured visual metaphors using controlled Midjourney prompting, followed by vector compositing and precise typography in Figma.",
+    "demonstrated_outcome": "Produced a 6-part editorial infographic suite adopted for internal engineering orientation.",
+    "featured": true,
+    "is_sample_preview": true,
+    "links": {
+      "github": "https://github.com/devank-data-analyst/ai-work-archive",
+      "drive": "",
+      "live": "",
+      "demo": ""
+    }
+  },
+  {
+    "id": "sample-004",
+    "slug": "llm-reasoning-benchmark-study",
+    "title": "Comparative Evaluation of Frontier LLMs on Tabular Logic",
+    "category": "Research & Knowledge",
+    "category_slug": "research-knowledge",
+    "tags": ["Benchmarking", "Synthesis", "Prompt Engineering"],
+    "year": 2026,
+    "status": "ongoing",
+    "contribution_type": "AI-assisted",
+    "tools": ["Claude 3.5 Sonnet", "GPT-4o", "Gemini 1.5 Pro", "Markdown"],
+    "formats": ["Whitepaper", "Evaluation Matrix"],
+    "summary": "Evaluated hallucination rates and logic failures across 50 tabular manipulation tasks, documenting prompting patterns that maximize deterministic output.",
+    "context_problem": "Teams struggled to predict when LLMs fail silently on multi-variable spreadsheet transformations.",
+    "approach_solution": "Constructed standardized stress-test prompts comparing chain-of-thought, code generation, and direct JSON output modes.",
+    "demonstrated_outcome": "Synthesized a 24-page comparative playbook documenting prompt guardrails that reduced tabular error rates from 32% to 4%.",
+    "featured": true,
+    "is_sample_preview": true,
+    "links": {
+      "github": "https://github.com/devank-data-analyst/ai-work-archive",
+      "drive": "",
+      "live": "",
+      "demo": ""
+    }
+  }
+]

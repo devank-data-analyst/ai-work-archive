@@ -1,0 +1,42 @@
+{
+  "tiers": [
+    {
+      "name": "Regular Use",
+      "badge": "Daily Workflow",
+      "badge_class": "tier-regular",
+      "description": "Primary models, IDEs, and environments used daily for prompt iteration, technical problem-solving, and synthesis.",
+      "tools": [
+        {"name": "ChatGPT / GPT-4o", "role": "Reasoning, ideation, structured data extraction"},
+        {"name": "Claude 3.5 Sonnet", "role": "In-depth writing, complex code analysis & review"},
+        {"name": "Codex / Copilot", "role": "AI-assisted development, script writing"},
+        {"name": "Python & Pandas", "role": "Data cleaning, statistical analysis, automation"},
+        {"name": "Git & GitHub", "role": "Version control, release management, CI/CD"}
+      ]
+    },
+    {
+      "name": "Practical Experience",
+      "badge": "Hands-On Projects",
+      "badge_class": "tier-practical",
+      "description": "Tools applied across completed projects, multimodal content generation, and specialized analytical workflows.",
+      "tools": [
+        {"name": "Google Gemini (1.5 Pro)", "role": "Long-context multimodal analysis, cross-referencing"},
+        {"name": "Midjourney v6", "role": "Visual generation, concept exploration, style consistency"},
+        {"name": "Perplexity AI", "role": "Grounded research, citation discovery, fact-checking"},
+        {"name": "Node.js & APIs", "role": "Bot development, lightweight webhook integrations"},
+        {"name": "Figma", "role": "UI prototyping, poster typography, layout compositing"}
+      ]
+    },
+    {
+      "name": "Exploration & Testing",
+      "badge": "Active Learning",
+      "badge_class": "tier-exploration",
+      "description": "Emerging architectures, open-weights models, video synthesis, and autonomous agent frameworks under active evaluation.",
+      "tools": [
+        {"name": "Local LLMs (Ollama / Llama 3)", "role": "Private offline inference, edge experiments"},
+        {"name": "Runway Gen-3", "role": "Video generation, camera motion testing"},
+        {"name": "Hugging Face Ecosystem", "role": "Model card exploration, small open-weights evaluation"},
+        {"name": "AI Agent Orchestrators", "role": "Multi-agent task decomposition & tool execution"}
+      ]
+    }
+  ]
+}
